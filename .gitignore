@@ -1,0 +1,37 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Private PDF documents
+*.pdf
+
+# Local AI model files
+models/
+*.gguf
+*.safetensors
+
+# Temporary files and logs
+*.log
+tmp/
+temp/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit local configuration
+.streamlit/secrets.toml
